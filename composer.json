@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {"Crawler\\": "src/"}
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-json": "*",
+        "league/container": "^4.2",
+        "league/tactician": "^1.1"
+    }
+}
